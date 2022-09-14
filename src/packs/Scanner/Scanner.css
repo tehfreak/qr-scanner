@@ -1,0 +1,30 @@
+.Scanner {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Scanner-video {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Scanner-overlay {
+
+}
+
+.Scanner-overlay > svg {
+    stroke-dasharray: none !important;
+    stroke-width: 2 !important;
+}
+
+.Scanner-result {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    padding: 24px;
+}
+
